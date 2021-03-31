@@ -6,7 +6,7 @@
 #include <time.h>
 using namespace std;
 
-unsigned int Movie::fullIndex = -1;     //There is no movie 
+size_t Movie::fullIndex = -1;           //There is no movie 
                                         //(Because index 0 itself means the index of a house)
 
 
